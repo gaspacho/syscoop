@@ -1,0 +1,55 @@
+---
+layout: home
+title: Cooperativa de Sistemas y Desarrollo
+---
+
+<div class="topper">
+<h3>Blog</h3>
+<p class="text-muted">notas, articulos y comentarios de los que formamos SysCoop</p>
+<br />
+<div class="row">
+  <div class="col-md-3">
+<span class="glyphicon glyphicon-ok"></span><strong> Tecnologia</strong>
+    <ul class="posts list-unstyled">
+    {% for post in site.categories.tecnologia %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  </div>
+  <div class="col-md-3">
+  <span class="glyphicon glyphicon-ok"></span><strong> Desarrollo</strong>
+  <ul class="posts list-unstyled">
+    {% for post in site.categories.desarrollo %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  </div>
+  <div class="clearfix visible-xs"></div>
+  <div class="col-md-3">
+  <span class="glyphicon glyphicon-ok"></span><strong> Sistemas</strong> 
+  <ul class="posts list-unstyled">
+    {% for post in site.categories.sistemas %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  </div>
+  <div class="col-md-3">
+  <span class="glyphicon glyphicon-ok"></span><strong> Proyectos</strong>
+  <ul class="posts list-unstyled">
+    {% for post in site.categories.proyectos %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  </div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+

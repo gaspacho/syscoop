@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Wocky"
+date:   2013-10-17 1:4:21
+categories: proyectos
+---
+
+**Wocky** se plantea como una plataforma para establecer sistemas de mensajeria instantanea  pensados en la privacidad y el anonimato de sus usuarios.
+Todo el proyecto es sostenido mediante el uso de [Software Libre][1].
+
+**Web:** [wocky.syscoop.com.ar][2]
+
+
+**Estado:** En desarrollo
+
+![pidgin](http://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pidgin.svg/200px-Pidgin.svg.png)
+
+
+
+[1]: http://es.wikipedia.org/wiki/Software_libre
+[2]: http://wocky.syscoop.com.ar

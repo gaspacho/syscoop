@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Redes"
+date:   2013-10-17 15:45:21
+categories: sistemas
+---
+
+
+Esta es la entrada para redes

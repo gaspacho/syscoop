@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Telemetria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <!-- <link href="/css/bootstrap.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+     <link href="/css/mod.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rambla|Muli|Varela|Roboto|Inconsolata|Molengo' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        padding-top: 50px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <!-- <link href="/css/bootstrap-responsive.css" rel="stylesheet"> -->
+
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+
+  </head>
+
+  <body>
+
+
+
+ <div class="container">
+
+      <div class="page-header">
+        <h1>SysCoop <small>Desarrollo, Sistemas, Tecnología.</small></h1>
+
+
+<a href="/index.html"><span class="glyphicon glyphicon-home"></a> <a href="/index.html"><span class="glyphicon glyphicon-thumbs-up"></a> <a href="/index.html"><span class="glyphicon glyphicon-bullhorn"></a>
+
+      </div>
+
+
+	
+
+
+          <h3>Telemetria</h3>
+<p class="text-muted">17 Oct 2013</p>
+<br />
+
+
+
+<div class="post">
+<p>Mediante la <strong>telemetría</strong> es posible poder medir, ver y operar distintos dispositivos de manera remota, almacenar información, etc.</p>
+
+<p>Existe multitud de tecnologías pensadas para la infinidad de propósitos que requieren una infraestructura de este tipo, veamos un poco algunas de ellas.</p>
+
+<p><strong>Inalámbrica</strong></p>
+
+<p>Como dice el nombre, sin cables, esto reduce a cualquier sistema que utilice ondas de radio para transmitir la informacion. La mayoría de estas implementaciones son de uso contidiano, en teléfonos celulares, 
+notebooks... </p>
+
+<ul>
+<li>Red GSM</li>
+<li>Red 3g</li>
+<li>WiFi</li>
+<li>WiMax</li>
+<li>Packet Radio</li>
+<li>Onda Corta</li>
+</ul>
+
+<p><strong>Cableada</strong></p>
+
+<p>Y en menor medida podemos utilizar otros tipos de accesos al medio, caso mas raro, dado que en la mayoría de las veces que se precisa hacer uso de la telemetría es en casos que el dispositivo esta en un lugar de 
+difícil acceso, o que no haya disponibilidad de redes o sistemas de comunicación y transporte cómodos.
+Estas formas utilizan normalmente sistemas cableados, con puntos lo suficientemete distantes para que hacer que sea una inversion costosa de implementar y mantener, aunque a la vez se puede decir que es mas &quot;fiable&quot;.</p>
+
+<ul>
+<li>Red UTP</li></li>
+<li>Fibra Óptica</li></li>
+<li>Red Telefónica</li></li>
+</ul>
+
+<hr>
+
+<h4>Implementación</h4>
+
+<p>El diseño de una estructura está absolutamente determinada por las condiciones que presenta el caso, difícilmente una necesidad es igual a otra, por lo tanto es complicado plantear generalidades, pero vamos a hacer el 
+intento.</p>
+
+<p><strong>Medio Ambiente</strong></p>
+
+<p>Supongamos que tenemos un dispositivo que mide la temperatura ambiente de un lugar, y nosotros necesitamos ver esa temperatura en nuestra computadora que esta a 500Km del lugar de medición, para ello necesitamos:</p>
+
+<ul>
+<li>Dispositivo de medición</li>
+<li>Unidad de telemetría</li>
+<li>Servidor de datos</li>
+<li>Cliente de datos</li>
+</ul>
+
+<p>En este modelo que creo se autoexplica, el termómetro mide temperatura, por una salida envia los datos al dispositivo de telemetría, este a su vez reenvia esos datos a un servidor de bases de datos, y luego el 
+observador con un programa se conecta a la base de datos y puede ver que temperatura hace a 500Km de su oficina.</p>
+
+<h4>Desarrollo</h4>
+
+<p>Además de poder transportar datos a lugares remotos, muchas veces es necesario procesarlos, graficarlos, etc. Nuestro equipo de desarrollo junto con el cliente se encarga de desarrollar el software de interpretacion de 
+datos si es necesario, ademas de cualquier servicio asociado.</p>
+
+</div>
+
+
+</div>
+</body>
+</html>
